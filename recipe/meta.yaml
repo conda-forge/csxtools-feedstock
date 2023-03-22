@@ -26,7 +26,8 @@ requirements:
     - numpy
   run:
     - python
-    - databroker
+    - databroker >=2.0.0b17  # [py>=311]
+    - databroker  # [py<311]
     - ipython
     - ipywidgets
     - matplotlib-base
