@@ -26,11 +26,12 @@ requirements:
     - numpy
   run:
     - python
-    - databroker
+    - databroker >=2.0.0b17
     - ipython
     - ipywidgets
     - matplotlib-base
     - pims >=0.3.3
+    - tiled >=0.1.0a91
     - tzlocal
     - {{ pin_compatible('numpy') }}
 
