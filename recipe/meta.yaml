@@ -32,6 +32,8 @@ requirements:
     - matplotlib-base
     - pims >=0.3.3
     - tiled >=0.1.0a91
+    - tiled-client >=0.1.0a91
+    - tiled-server >=0.1.0a91
     - tzlocal
     - {{ pin_compatible('numpy') }}
 
